@@ -25,3 +25,10 @@ if (unitsSold-quantity)>3{
     console.log("low stock level");
 }
 
+//task 4
+
+function checkLowStock(inventory){
+    inventory for.each(inventory => {
+        return if (lowStocklevel<3){ "low stop level"};
+
+}
