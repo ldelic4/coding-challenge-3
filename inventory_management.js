@@ -34,9 +34,18 @@ function checkLowStock(inventory){
     }
 
 //task 5
-Function calculateInventoryValue(inventory){
+function calculateInventoryValue(inventory){
     let total= inventory.reduce((total, totalval))=>{
         totalval=inventory.quantity * inventory.price
     }
 }
 console.log( 'total inventory:$${'totalval'}' )
+
+
+//task 6
+
+function processSale(name, unitsSold){
+    let result= inventory.find(({names}));
+    return 'product is found';
+}
+else{'product not found'}
