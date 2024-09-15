@@ -34,4 +34,9 @@ function checkLowStock(inventory){
     }
 
 //task 5
-
+Function calculateInventoryValue(inventory){
+    let total= inventory.reduce((total, totalval))=>{
+        totalval=inventory.quantity * inventory.price
+    }
+}
+console.log( 'total inventory:$${'totalval'}' )
