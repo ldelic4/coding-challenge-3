@@ -21,7 +21,7 @@ function updateStock(name, unitsSold: 2){
 }
 if (unitsSold-quantity)>3{
     console.log("high stock level.");
-} else if(unitsSold-quantity)<3 {
+} elseif(unitsSold-quantity)<3 {
     console.log("low stock level");
 }
 
@@ -29,6 +29,9 @@ if (unitsSold-quantity)>3{
 
 function checkLowStock(inventory){
     inventory for.each(inventory => {
-        return if (lowStocklevel<3){ "low stop level"};
+        return if (lowStocklevel<3){ "low stop level"}};
 
-}
+    }
+
+//task 5
+
