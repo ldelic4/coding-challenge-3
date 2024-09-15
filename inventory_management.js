@@ -14,3 +14,14 @@ function displayProductDetails(name, price, quantity, lowStocklevel){
 
 }
 console.log(message);
+
+//task 3
+function updateStock(name, unitsSold: 2){
+    return unitsSold-quantity
+}
+if (unitsSold-quantity)>3{
+    console.log("high stock level.");
+} else if(unitsSold-quantity)<3 {
+    console.log("low stock level");
+}
+
