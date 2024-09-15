@@ -7,4 +7,10 @@ const inventory= [
     {name:'smartwatch', price:250, quantity:3, lowStocklevel:1}
 ];
 
-    ]
+//task 2
+
+function displayProductDetails(name, price, quantity, lowStocklevel){
+    return lowStocklevel>3? "High stock level": "Low stock level";
+
+}
+console.log(message);
